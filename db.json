@@ -1,9 +1,4 @@
 {
-  "success": true,
-  "error": {
-    "message": "",
-    "code": 0
-  },
   "data": {
     "total": 1038.98,
     "currency": "RON",
