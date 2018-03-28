@@ -1,14 +1,568 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "success": true,
+  "error": {
+    "message": "",
+    "code": 0
+  },
+  "data": {
+    "total": 1038.98,
+    "currency": "RON",
+    "country_id": 1,
+    "country": "RO",
+    "source": "mobile app",
+    "is_swipe": false,
+    "author": "procesare.automata",
+    "customer": {
+      "eos_id": 373597,
+      "corporate": false,
+      "type": 0,
+      "email": "madalinaene83@yahoo.com",
+      "name": "Madalina Sima",
+      "phones": [
+        "0727114381",
+        "",
+        ""
+      ],
+      "company": {
+        "name": "madalina sima",
+        "fiscal_code": "",
+        "registration_number": "",
+        "bank_account": "",
+        "id": 611157
+      },
+      "id": 509073,
+      "segmentation": "Bronze",
+      "balance": 0,
+      "total_orders": 6,
+      "total_orders_dfdl": "5"
+    },
+    "modified_at": "2018-03-05T20:05:25",
+    "has_mkt_products": true,
+    "eos_customer_id": 373597,
+    "notifications": [
+      {
+        "id": "5a9d40bfd667c920f7342c7a",
+        "type": "email",
+        "message_type": "message.email.confirmation",
+        "from": "eMAG.ro <comenzi@emag.ro>",
+        "to": "madalinaene83@yahoo.com",
+        "send_date": {
+          "date": "2018-03-05 15:06:07.000000",
+          "timezone_type": 3,
+          "timezone": "Europe\/Bucharest"
+        },
+        "status": 1,
+        "preview": "Confirmare plasare comanda nr. #42691061",
+        "order_id": 42691061,
+        "status_name": "Received"
+      },
+      {
+        "id": "5a9d48f796f1f06d9a55b6b8",
+        "type": "email",
+        "message_type": "message.email.delivery",
+        "from": "eMAG.ro <no-reply-t@emag.ro>",
+        "to": "madalinaene83@yahoo.com",
+        "send_date": {
+          "date": "2018-03-05 15:41:11.000000",
+          "timezone_type": 3,
+          "timezone": "Europe\/Bucharest"
+        },
+        "status": 1,
+        "preview": "Expediere produse vandute de Pufrelax din comanda nr. #42691061",
+        "order_id": 42691061,
+        "status_name": "Received"
+      },
+      {
+        "id": "5a9e5a39d667c96f26108252",
+        "type": "email",
+        "message_type": "message.email.delivery",
+        "from": "eMAG.ro <no-reply-t@emag.ro>",
+        "to": "madalinaene83@yahoo.com",
+        "send_date": {
+          "date": "2018-03-06 11:07:05.000000",
+          "timezone_type": 3,
+          "timezone": "Europe\/Bucharest"
+        },
+        "status": 1,
+        "preview": "Livrare produse vandute de eMAG din comanda nr. #42691061",
+        "order_id": 42691061,
+        "status_name": "Received"
+      },
+      {
+        "id": "5aa29b09a4877326dd768348",
+        "type": "email",
+        "message_type": "message.email.satisfaction.order",
+        "from": "eMAG.ro <comenzi@emag.ro>",
+        "to": "madalinaene83@yahoo.com",
+        "send_date": {
+          "date": "2018-03-09 16:32:40.000000",
+          "timezone_type": 3,
+          "timezone": "Europe\/Bucharest"
+        },
+        "status": 1,
+        "preview": "Cum evaluezi ultima comanda de la eMAG? #42691061",
+        "order_id": 42691061,
+        "status_name": "Received"
+      },
+      {
+        "id": "5aad2845a699d25e402be538",
+        "type": "email",
+        "message_type": "message.email.satisfaction.order",
+        "from": "eMAG.ro <comenzi@emag.ro>",
+        "to": "madalinaene83@yahoo.com",
+        "send_date": {
+          "date": "2018-03-17 16:37:57.000000",
+          "timezone_type": 3,
+          "timezone": "Europe\/Bucharest"
+        },
+        "status": 1,
+        "preview": "Cum evaluezi ultima comanda de la eMAG? #42691061",
+        "order_id": 42691061,
+        "status_name": "Received"
+      },
+      {
+        "id": "5a9d40a096f1f02fe0724fd6",
+        "type": "sms",
+        "message_type": "message.sms.interval_allocation",
+        "from": "eMAG.ro",
+        "to": "40740123741",
+        "preview": "Ne-am pus in miscare! Iti livram produsul vandut de eMAG din comanda 42691061, in valoare de 974,98 lei, intre 07.03-08.03. Imediat ce o predam curierului, vei fi notificat.",
+        "send_date": {
+          "date": "2018-03-05 15:05:36.000000",
+          "timezone_type": 3,
+          "timezone": "Europe\/Bucharest"
+        },
+        "status": 2,
+        "order_id": 42691061,
+        "status_name": "Delivered to recipient"
+      },
+      {
+        "id": "5a9d48f773f6605d0771552c",
+        "type": "sms",
+        "message_type": "message.sms.delivery.merge_delivery",
+        "from": "eMAG.ro",
+        "to": "40740123741",
+        "preview": "Produsele vandute de Pufrelax din comanda 42691061 sunt pregatite pentru livrare si vor ajunge la tine in cateva zile. Ganduri bune!",
+        "send_date": {
+          "date": "2018-03-05 15:41:11.000000",
+          "timezone_type": 3,
+          "timezone": "Europe\/Bucharest"
+        },
+        "status": 2,
+        "order_id": 42691061,
+        "status_name": "Delivered to recipient"
+      },
+      {
+        "id": "5a9e5a4273f6605afa09d495",
+        "type": "sms",
+        "message_type": "message.sms.delivery.merge_delivery",
+        "from": "eMAG.ro",
+        "to": "40740123741",
+        "preview": "Produsul vandut de eMAG din comanda 42691061 a fost predat curierului si va fi livrat in perioada 07.03-08.03. Deschide coletul la livrare si asigura-te ca produsele sunt in stare perfecta!",
+        "send_date": {
+          "date": "2018-03-06 11:07:14.000000",
+          "timezone_type": 3,
+          "timezone": "Europe\/Bucharest"
+        },
+        "status": 2,
+        "order_id": 42691061,
+        "status_name": "Delivered to recipient"
+      }
+    ],
+    "rma_sheets": [
+      
+    ],
+    "service_sheets": [
+      
+    ],
+    "previous_author": "",
+    "id": "42691061",
+    "status_id": 12,
+    "status_name": "Finished",
+    "date": "2018-03-05T15:05:33",
+    "orders": [
+      {
+        "vendor_id": 1,
+        "vendor_name": "eMag",
+        "tracking_status": 6,
+        "total": 974.98,
+        "cod": 974.98,
+        "currency": "RON",
+        "payment_mode": "RAMBURS",
+        "delivery_mode": "CURIER RO",
+        "billing_address": {
+          "address": "soseaua Salaj, nr.351-353, bl.5, et.1, ap.13",
+          "locality": "Bucuresti",
+          "postal_code": ""
+        },
+        "delivery_address": {
+          "address": "soseaua Salaj, nr.351-353, bl.5, et.1, ap.13",
+          "locality": "Bucuresti",
+          "postal_code": ""
+        },
+        "delivery": {
+          "method": "courier",
+          "same_day": 0,
+          "courier": {
+            "name": "CURIER RO",
+            "call_center_phone": "021.637.06.60",
+            "estimated_delivery_date": "2018-03-07T00:00:00",
+            "estimated_delivery_interval": {
+              "start": "2018-03-07T09:00:00",
+              "end": "2018-03-08T18:00:00",
+              "show_days": 0
+            }
+          }
+        },
+        "products": [
+          {
+            "order_product_id": 141421745,
+            "product_id": 1435103,
+            "type": 1,
+            "name": "Canapea extensibila Kring Doris + cutie Ottoman, Gri, Piele ecologica, 170 x 83-106 x 41-87 cm",
+            "quantity": 1,
+            "price": {
+              "base": 1218.48,
+              "vat": 231.51,
+              "unit_price": 1449.99,
+              "base_total": 1218.48,
+              "vat_total": 231.51,
+              "total": 1449.99
+            },
+            "vat_rate": 0.19,
+            "currency": "RON",
+            "buyback": false,
+            "is_electronic": false,
+            "characteristics": {
+              "white_mda": true
+            },
+            "uom": 1
+          },
+          {
+            "order_product_id": 141421746,
+            "product_id": 1354856,
+            "type": 4,
+            "name": "Discount Promotie ROTVA19",
+            "quantity": 1,
+            "price": {
+              "base": -420.17,
+              "vat": -79.83,
+              "unit_price": -500,
+              "base_total": -420.17,
+              "vat_total": -79.83,
+              "total": -500
+            },
+            "vat_rate": 0.19,
+            "currency": "RON",
+            "parent_product_id": 141421745,
+            "buyback": false,
+            "is_electronic": true,
+            "characteristics": {
+              "white_mda": false
+            },
+            "uom": 1
+          },
+          {
+            "order_product_id": 141421747,
+            "product_id": 4500,
+            "type": 3,
+            "name": "Cost transport",
+            "quantity": 1,
+            "price": {
+              "base": 21,
+              "vat": 3.99,
+              "unit_price": 24.99,
+              "base_total": 21,
+              "vat_total": 3.99,
+              "total": 24.99
+            },
+            "vat_rate": 0.19,
+            "currency": "RON",
+            "buyback": false,
+            "is_electronic": true,
+            "characteristics": {
+              "white_mda": false
+            },
+            "uom": 1
+          }
+        ],
+        "invoices": [
+          {
+            "number": "189905720429",
+            "url": "http:\/\/eis.emag.local\/ieis\/ro\/order-details\/order-invoice-pdf\/42691061\/48915946\/?withLogo=1",
+            "type": 1,
+            "date": "2018-03-05T20:05:25",
+            "value": 974.98
+          }
+        ],
+        "deliveries": [
+          {
+            "bol": "27566052",
+            "total": 974.98,
+            "currency": "RON",
+            "split": false,
+            "method_info": {
+              "method": "courier",
+              "same_day": 0,
+              "courier": {
+                "name": "SAMEDAY24",
+                "estimated_delivery_date": "2018-03-07T00:00:00",
+                "estimated_delivery_interval": {
+                  "start": "2018-03-07T09:00:00",
+                  "end": "2018-03-08T18:00:00",
+                  "show_days": 0
+                }
+              }
+            },
+            "estimated_delivery_date": "2018-03-07T00:00:00",
+            "estimated_delivery_interval": {
+              "start": "2018-03-07T09:00:00",
+              "end": "2018-03-08T18:00:00",
+              "show_days": 0
+            },
+            "awbs": [
+              {
+                "id": 47062342,
+                "number": "3EMCG213867001",
+                "url": "https:\/\/www.sameday.ro\/awb-tracking?awb=3EMCG213867001",
+                "tracking": [
+                  {
+                    "tracking_status": "NEW",
+                    "date": "2018-03-06T03:22:53",
+                    "status": 0
+                  },
+                  {
+                    "tracking_status": "HOV",
+                    "date": "2018-03-06T11:06:52",
+                    "status": 0
+                  },
+                  {
+                    "tracking_status": "HUB",
+                    "date": "2018-03-06T11:56:00",
+                    "status": 0,
+                    "call_center_phone": "021.637.06.60"
+                  },
+                  {
+                    "tracking_status": "TRZ",
+                    "date": "2018-03-06T17:41:00",
+                    "status": 0,
+                    "call_center_phone": "021.637.06.60"
+                  },
+                  {
+                    "tracking_status": "DLV",
+                    "date": "2018-03-07T16:28:00",
+                    "status": 1,
+                    "call_center_phone": "021.637.06.60"
+                  }
+                ]
+              },
+              {
+                "id": 47062343,
+                "number": "3EMCG213867002",
+                "url": "https:\/\/www.sameday.ro\/awb-tracking?awb=3EMCG213867002",
+                "tracking": [
+                  {
+                    "tracking_status": "NEW",
+                    "date": "2018-03-06T03:22:53",
+                    "status": 0
+                  },
+                  {
+                    "tracking_status": "HOV",
+                    "date": "2018-03-06T11:06:52",
+                    "status": 0
+                  },
+                  {
+                    "tracking_status": "HUB",
+                    "date": "2018-03-06T11:57:00",
+                    "status": 0,
+                    "call_center_phone": "021.637.06.60"
+                  },
+                  {
+                    "tracking_status": "TRZ",
+                    "date": "2018-03-06T17:41:00",
+                    "status": 0,
+                    "call_center_phone": "021.637.06.60"
+                  },
+                  {
+                    "tracking_status": "DLV",
+                    "date": "2018-03-07T16:28:00",
+                    "status": 1,
+                    "call_center_phone": "021.637.06.60"
+                  }
+                ]
+              }
+            ],
+            "products": [
+              {
+                "order_product_id": 141421745,
+                "product_id": 1435103,
+                "type": 1,
+                "hash": "EIS_RO;42691061;1;44462853;1;dc56848270add49512ba601a417cb716;",
+                "name": "Canapea extensibila Kring Doris + cutie Ottoman, Gri, Piele ecologica, 170 x 83-106 x 41-87 cm",
+                "quantity": 1,
+                "price": {
+                  "base": 231.5112,
+                  "vat": 231.51,
+                  "unit_price": 1218.48,
+                  "base_total": 1218.48,
+                  "vat_total": 231.51,
+                  "total": 1449.99
+                },
+                "vat_rate": 0.19,
+                "currency": "RON",
+                "uom_id": 1,
+                "promotion_id": 314511854,
+                "buyback": false,
+                "is_electronic": false,
+                "characteristics": {
+                  "white_mda": true
+                },
+                "doc_id": 5225460,
+                "category_id": 1537
+              },
+              {
+                "order_product_id": 141421746,
+                "product_id": 1354856,
+                "type": 4,
+                "hash": "141421746",
+                "name": "Discount conform promotie: 6426228028185",
+                "quantity": 1,
+                "price": {
+                  "base": -420.17,
+                  "vat": -79.83,
+                  "unit_price": -500,
+                  "base_total": -2631.5789473684,
+                  "vat_total": -79.83,
+                  "total": -500
+                },
+                "vat_rate": 0.19,
+                "currency": "RON",
+                "uom_id": 1,
+                "parent_product_id": 141421745,
+                "promotion_id": 314511854,
+                "is_electronic": true,
+                "characteristics": {
+                  "white_mda": true
+                },
+                "doc_id": 4878146,
+                "category_id": 206
+              },
+              {
+                "order_product_id": 141421747,
+                "product_id": 4500,
+                "type": 3,
+                "hash": "141421747",
+                "name": "Cost transport",
+                "quantity": 1,
+                "price": {
+                  "base": 21,
+                  "vat": 3.99,
+                  "unit_price": 24.99,
+                  "base_total": 131.52631578947,
+                  "vat_total": 3.99,
+                  "total": 24.99
+                },
+                "vat_rate": 0.19,
+                "currency": "RON",
+                "uom_id": 1,
+                "parent_product_id": 141421745,
+                "is_electronic": true,
+                "characteristics": {
+                  "white_mda": true
+                }
+              }
+            ],
+            "delivery_address": {
+              "address": "soseaua Salaj, nr.351-353, bl.5, et.1, ap.13",
+              "locality": "Bucure\u015fti",
+              "locality_id": 6,
+              "postal_code": "",
+              "contact_name": "Madalina Sima",
+              "contact_phone": "0740123741"
+            }
+          }
+        ],
+        "status_id": 12,
+        "status_name": "Finished",
+        "split_info": {
+          "message": "Comanda nu va fi livrata split!",
+          "products": [
+            {
+              "quantity": 1,
+              "productName": "Canapea extensibila Kring Doris + cutie Ottoman, Gri, Piele ecologica, 170 x 83-106 x 41-87 cm",
+              "productPrice": "1449.99",
+              "order_product_id": 141421745
+            }
+          ]
+        }
+      },
+      {
+        "vendor_id": 82,
+        "vendor_name": "Pufrelax",
+        "tracking_status": 13,
+        "total": 64,
+        "cod": 64,
+        "currency": "RON",
+        "payment_mode": "RAMBURS",
+        "delivery_mode": "courier",
+        "has_cancellation_request": false,
+        "billing_address": {
+          "address": "soseaua Salaj, nr.351-353, bl.5, et.1, ap.13",
+          "locality": "Sectorul 5",
+          "postal_code": ""
+        },
+        "delivery_address": {
+          "address": "soseaua Salaj, nr.351-353, bl.5, et.1, ap.13",
+          "locality": "Sectorul 5",
+          "postal_code": ""
+        },
+        "delivery": {
+          "method": "courier"
+        },
+        "products": [
+          {
+            "order_product_id": 1336928,
+            "product_id": 15506536,
+            "type": 1,
+            "name": "Rezerva granule polistiren - 1 Kg (100 litri)",
+            "quantity": 1,
+            "price": {
+              "base": 53.78,
+              "vat": 10.22,
+              "unit_price": 64,
+              "base_total": 53.78,
+              "vat_total": 10.22,
+              "total": 64
+            },
+            "vat_rate": 0.19,
+            "currency": "RON",
+            "characteristics": {
+              "white_mda": true
+            },
+            "uom": 1
+          },
+          {
+            "order_product_id": 4500,
+            "product_id": 4500,
+            "type": 3,
+            "name": "Cost transport",
+            "quantity": 1,
+            "price": {
+              "base": 0,
+              "vat": 0,
+              "unit_price": 0,
+              "base_total": 0,
+              "vat_total": 0,
+              "total": 0
+            },
+            "currency": "RON",
+            "uom": ""
+          }
+        ],
+        "status_id": 4,
+        "status_name": "Finished"
+      }
+    ],
+    "reverse_vat": "Not eligible"
   }
 }
