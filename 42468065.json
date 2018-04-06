@@ -1,9 +1,4 @@
 {
-  "success": true,
-  "error": {
-    "message": "",
-    "code": 0
-  },
   "data": {
     "country": "RO",
     "eos_customer_id": 2891731,
