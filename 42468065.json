@@ -1,72 +1,61 @@
 {
-  "data": {
-    "customer": {
-      "corporate": false,
-      "name": "Oprea Eugen",
-      "phones": [
-        "0769352090",
-        "",
-        ""
-      ],
-      "eos_id": 2891731,
-      "company": {
-        "name": "Oprea Eugen",
-        "fiscal_code": "",
-        "registration_number": "",
-        "bank_account": "",
-        "id": 4402606
-      }
-    },
-    "notifications": [
-      
-    ],
-    "rma_sheets": [
-      
-    ],
-    "service_sheets": [
-      
-    ],
-    "previous_author": "",
-    "id": "42468065",
-    "status_id": 12,
-    "status_name": "Finished",
-    "date": "2018-02-24T22:08:33",
-    "orders": [
-      {
-        "products": [
-          {
-            "characteristics": {
-              "white_mda": false
-            },
-            "order_product_id": 140514798,
-            "quantity": 1,
-            "type": 1,
-            "buyback": false,
-            "price": {
-              "total": 529.99,
-              "vat": 84.62,
-              "unit_price": 529.99,
-              "base_total": 445.37,
-              "vat_total": 84.62,
-              "base": 445.37
-            },
-            "product_id": 3762088,
-            "name": "Aspirator cu sac Electrolux PowerForce EPF61RR, 800W, S-Bag, Hygiene Filter, Perie DustPro, Rosu",
-            "currency": "RON",
-            "vat_rate": 0.19,
-            "is_electronic": false,
-            "uom": 1
-          }
-        ],
-        "total": 355.98,
-        "vendor_id": 1,
-        "currency": "RON",
-        "delivery_mode": "CURIER RO",
-        "tracking_status": 6,
-        "status_id": 12,
-        "status_name": "Finished"
-      }
-    ],
-    "reverse_vat": "Not eligible"
-  }
+	"data": {
+		"customer": {
+			"corporate": false,
+			"name": "Oprea Eugen",
+			"phones": [
+				"0769352090",
+				"",
+				""
+			],
+			"eos_id": 2891731,
+			"company": {
+				"name": "Oprea Eugen",
+				"fiscal_code": "",
+				"registration_number": "",
+				"bank_account": "",
+				"id": 4402606
+			}
+		},
+
+		"orders": [
+			{
+				"products": [
+					{
+						"characteristics": {
+							"white_mda": false
+						},
+						"order_product_id": 140514798,
+						"quantity": 1,
+						"type": 1,
+						"buyback": false,
+						"price": {
+							"total": 529.99,
+							"vat": 84.62,
+							"unit_price": 529.99,
+							"base_total": 445.37,
+							"vat_total": 84.62,
+							"base": 445.37
+						},
+						"product_id": 3762088,
+						"name": "Aspirator cu sac Electrolux PowerForce EPF61RR, 800W, S-Bag, Hygiene Filter, Perie DustPro, Rosu",
+						"currency": "RON",
+						"vat_rate": 0.19,
+						"is_electronic": false,
+						"uom": 1
+					}
+					
+				],
+				"total": 355.98,
+				"vendor_id": 1,
+				"currency": "RON",
+				"delivery_mode": "CURIER RO",
+				"tracking_status": 6,
+				"status_id": 12,
+				"status_name": "Finished"
+
+			}
+		],
+		"reverse_vat": "Not eligible"
+	}
 }
