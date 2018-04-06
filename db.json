@@ -63,6 +63,7 @@
         ],
         "total": 355.98,
         "vendor_id": 1,
+		"vendor_name": "emag",
         "currency": "RON",
         "delivery_mode": "CURIER RO",
         "tracking_status": 6,
