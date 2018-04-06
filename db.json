@@ -40,7 +40,7 @@
             "is_electronic": false,
             "uom": 1
           },
-		  {
+          {
             "order_product_id": 141421747,
             "quantity": 1,
             "type": 1,
@@ -63,12 +63,25 @@
         ],
         "total": 355.98,
         "vendor_id": 1,
-		"vendor_name": "emag",
+        "vendor_name": "emag",
         "currency": "RON",
         "delivery_mode": "CURIER RO",
         "tracking_status": 6,
         "status_id": 12,
-        "status_name": "Finished"
+        "status_name": "Finished",
+        "deliveries": [
+          {
+            "total": 974.98,
+            "delivery_address": {
+              "locality": "Bucure\u015fti",
+              "locality_id": 6,
+              "contact_name": "Madalina Sima",
+              "address": "soseaua Salaj, nr.351-353, bl.5, et.1, ap.13",
+              "contact_phone": "0740123741",
+              "postal_code": ""
+            }
+          }
+        ]
       }
     ],
     "reverse_vat": "Not eligible"
