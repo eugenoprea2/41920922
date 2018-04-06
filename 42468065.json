@@ -1,347 +1,78 @@
 {
-  "data": {
-    "country": "RO",
-    "eos_customer_id": 2891731,
-    "author": "procesare.automata",
-    "source": "site",
-    "total": 355.98,
-    "currency": "RON",
-    "modified_at": "2018-02-24T22:25:05",
-    "country_id": 1,
-    "customer": {
-      "corporate": false,
-      "name": "Oprea Eugen",
-      "phones": [
-        "0769352090",
-        "",
-        ""
-      ],
-      "eos_id": 2891731,
-      "company": {
-        "name": "Oprea Eugen",
-        "fiscal_code": "",
-        "registration_number": "",
-        "bank_account": "",
-        "id": 4402606
-      },
-      "type": 0,
-      "email": "oprea_marius95@yahoo.com",
-      "id": 4092726,
-      "segmentation": "Bronze",
-      "balance": 0,
-      "total_orders": 8,
-      "total_orders_dfdl": "7"
-    },
-    "notifications": [
-      
-    ],
-    "rma_sheets": [
-      
-    ],
-    "service_sheets": [
-      
-    ],
-    "previous_author": "",
-    "id": "42468065",
-    "status_id": 12,
-    "status_name": "Finished",
-    "date": "2018-02-24T22:08:33",
-    "orders": [
-      {
-        "delivery": {
-          "method": "courier",
-          "courier": {
-            "name": "CURIER RO",
-            "estimated_delivery_interval": {
-              "start": "2018-02-26T09:00:00",
-              "end": "2018-02-27T18:00:00",
-              "show_days": 0
-            },
-            "estimated_delivery_date": "2018-02-26T00:00:00",
-            "call_center_phone": "021.637.06.60"
-          },
-          "same_day": 0
-        },
-        "payment_mode": "online_payment",
-        "delivery_address": {
-          "address": "Strada Postei, Nr. 9",
-          "locality": "Garbovi",
-          "postal_code": ""
-        },
-        "vendor_name": "eMag",
-        "billing_address": {
-          "address": "Strada Postei, Nr. 9",
-          "locality": "Garbovi",
-          "postal_code": ""
-        },
-        "online_payment": {
-          "amount_returned": 0,
-          "status_code": 0,
-          "method": "card",
-          "amount_received": 355.98,
-          "processing_date": "2018-02-24T22:13:35",
-          "processor": "PayU",
-          "status": 3
-        },
-        "products": [
-          {
-            "characteristics": {
-              "white_mda": false
-            },
-            "order_product_id": 140514798,
-            "quantity": 1,
-            "type": 1,
-            "buyback": false,
-            "price": {
-              "total": 529.99,
-              "vat": 84.62,
-              "unit_price": 529.99,
-              "base_total": 445.37,
-              "vat_total": 84.62,
-              "base": 445.37
-            },
-            "product_id": 3762088,
-            "name": "Aspirator cu sac Electrolux PowerForce EPF61RR, 800W, S-Bag, Hygiene Filter, Perie DustPro, Rosu",
-            "currency": "RON",
-            "vat_rate": 0.19,
-            "is_electronic": false,
-            "uom": 1
-          },
-          {
-            "characteristics": {
-              "white_mda": false
-            },
-            "order_product_id": 140514799,
-            "quantity": 1,
-            "type": 4,
-            "buyback": false,
-            "parent_product_id": 140514798,
-            "price": {
-              "total": -180,
-              "vat": -28.74,
-              "unit_price": -180,
-              "base_total": -151.26,
-              "vat_total": -28.74,
-              "base": -151.26
-            },
-            "product_id": 1354856,
-            "name": "Discount Promotie ROTVA19",
-            "currency": "RON",
-            "vat_rate": 0.19,
-            "is_electronic": true,
-            "uom": 1
-          },
-          {
-            "characteristics": {
-              "white_mda": false
-            },
-            "order_product_id": 140514800,
-            "quantity": 1,
-            "type": 3,
-            "buyback": false,
-            "price": {
-              "total": 5.99,
-              "vat": 0.96,
-              "unit_price": 5.99,
-              "base_total": 5.03,
-              "vat_total": 0.96,
-              "base": 5.03
-            },
-            "product_id": 4500,
-            "name": "Cost transport",
-            "currency": "RON",
-            "vat_rate": 0.19,
-            "is_electronic": true,
-            "uom": 1
-          }
-        ],
-        "total": 355.98,
-        "vendor_id": 1,
-        "currency": "RON",
-        "delivery_mode": "CURIER RO",
-        "proforma_invoices": [
-          {
-            "url": "http:\/\/eis.emag.local\/ieis\/ro\/order-proforma\/order-proforma-pdf\/10877279\/42468065\/1",
-            "id": 10877279
-          }
-        ],
-        "invoices": [
-          {
-            "date": "2018-02-24T22:25:05",
-            "number": "189905577495",
-            "type": 1,
-            "value": 355.98,
-            "url": "http:\/\/eis.emag.ro\/ieis\/ro\/order-details\/order-invoice-pdf\/42468065\/48591731\/?withLogo=1"
-          }
-        ],
-        "deliveries": [
-          {
-            "total": 355.98,
-            "delivery_address": {
-              "locality": "G\u00e2rbovi",
-              "locality_id": 7904,
-              "contact_name": "Oprea Eugen",
-              "address": "Strada Postei, Nr. 9",
-              "contact_phone": "0727714314",
-              "postal_code": ""
-            },
-            "split": false,
-            "method_info": {
-              "method": "courier",
-              "same_day": 0,
-              "courier": {
-                "name": "SAMEDAY24",
-                "estimated_delivery_interval": {
-                  "start": "2018-02-26T09:00:00",
-                  "end": "2018-02-27T18:00:00",
-                  "show_days": 0
-                },
-                "estimated_delivery_date": "2018-02-26T00:00:00"
-              }
-            },
-            "currency": "RON",
-            "awbs": [
-              {
-                "number": "3E24H958543001",
-                "url": "https:\/\/www.sameday.ro\/awb-tracking?awb=3E24H958543001",
-                "id": 46745554,
-                "tracking": [
-                  {
-                    "date": "2018-02-25T13:44:53",
-                    "tracking_status": "NEW",
-                    "status": 0
-                  },
-                  {
-                    "date": "2018-02-25T13:59:55",
-                    "tracking_status": "HOV",
-                    "status": 0
-                  },
-                  {
-                    "date": "2018-02-25T15:42:00",
-                    "tracking_status": "HUB",
-                    "status": 0,
-                    "call_center_phone": "021.637.06.60"
-                  },
-                  {
-                    "date": "2018-02-25T18:49:00",
-                    "tracking_status": "TRZ",
-                    "status": 0,
-                    "call_center_phone": "021.637.06.60"
-                  },
-                  {
-                    "date": "2018-03-03T12:01:00",
-                    "tracking_status": "DLV",
-                    "status": 1,
-                    "call_center_phone": "021.637.06.60"
-                  }
-                ]
-              }
-            ],
-            "bol": "27239906",
-            "products": [
-              {
-                "characteristics": {
-                  "white_mda": false
-                },
-                "order_product_id": 140514798,
-                "quantity": 1,
-                "promotion_id": 313969934,
-                "type": 1,
-                "buyback": false,
-                "doc_id": 8598490,
-                "uom_id": 1,
-                "category_id": 424,
-                "price": {
-                  "vat": 84.62,
-                  "total": 529.99,
-                  "unit_price": 445.37,
-                  "base_total": 445.37,
-                  "vat_total": 84.62,
-                  "base": 84.6203
-                },
-                "product_id": 3762088,
-                "name": "Aspirator cu sac Electrolux PowerForce EPF61RR, 800W, S-Bag, Hygiene Filter, Perie DustPro, Rosu",
-                "currency": "RON",
-                "hash": "38822035x1",
-                "vat_rate": 0.19,
-                "is_electronic": false
-              },
-              {
-                "characteristics": {
-                  "white_mda": false
-                },
-                "order_product_id": 140514799,
-                "quantity": 1,
-                "promotion_id": 313969934,
-                "type": 4,
-                "doc_id": 4878146,
-                "uom_id": 1,
-                "parent_product_id": 140514798,
-                "category_id": 206,
-                "price": {
-                  "vat": -28.74,
-                  "total": -180,
-                  "unit_price": -180,
-                  "base_total": -947.36842105263,
-                  "vat_total": -28.74,
-                  "base": -151.26
-                },
-                "product_id": 1354856,
-                "name": "Discount conform promotie: EPF61RR",
-                "currency": "RON",
-                "hash": "140514799",
-                "vat_rate": 0.19,
-                "is_electronic": true
-              },
-              {
-                "characteristics": {
-                  "white_mda": false
-                },
-                "order_product_id": 140514800,
-                "quantity": 1,
-                "type": 3,
-                "uom_id": 1,
-                "parent_product_id": 140514798,
-                "price": {
-                  "vat": 0.96,
-                  "total": 5.99,
-                  "unit_price": 5.99,
-                  "base_total": 31.526315789474,
-                  "vat_total": 0.96,
-                  "base": 5.03
-                },
-                "product_id": 4500,
-                "name": "Cost transport",
-                "currency": "RON",
-                "hash": "140514800",
-                "vat_rate": 0.19,
-                "is_electronic": true
-              }
-            ],
-            "estimated_delivery_interval": {
-              "start": "2018-02-26T09:00:00",
-              "end": "2018-02-27T18:00:00",
-              "show_days": 0
-            },
-            "estimated_delivery_date": "2018-02-26T00:00:00"
-          }
-        ],
-        "tracking_status": 6,
-        "status_id": 12,
-        "status_name": "Finished",
-        "split_info": {
-          "message": "Comanda nu va fi livrata split!",
-          "products": [
-            {
-              "quantity": 1,
-              "productName": "Aspirator cu sac Electrolux PowerForce EPF61RR, 800W, S-Bag, Hygiene Filter, Perie DustPro, Rosu",
-              "productPrice": "529.99",
-              "order_product_id": 140514798
-            }
-          ]
-        }
-      }
-    ],
-    "reverse_vat": "Not eligible"
-  }
+	"data": {
+		"customer": {
+			"corporate": false,
+			"name": "Oprea Eugen",
+			"phones": [
+				"0769352090",
+				"",
+				""
+			],
+			"eos_id": 2891731,
+			"company": {
+				"name": "Oprea Eugen",
+				"fiscal_code": "",
+				"registration_number": "",
+				"bank_account": "",
+				"id": 4402606
+			}
+		},
+		"notifications": [],
+		"rma_sheets": [],
+		"service_sheets": [],
+		"previous_author": "",
+		"id": "42468065",
+		"status_id": 12,
+		"status_name": "Finished",
+		"date": "2018-02-24T22:08:33",
+		"orders": [
+			{
+				"products": [
+					{
+						"characteristics": {
+							"white_mda": false
+						},
+						"order_product_id": 140514798,
+						"quantity": 1,
+						"type": 1,
+						"buyback": false,
+						"price": {
+							"total": 529.99,
+							"vat": 84.62,
+							"unit_price": 529.99,
+							"base_total": 445.37,
+							"vat_total": 84.62,
+							"base": 445.37
+						},
+						"product_id": 3762088,
+						"name": "Aspirator cu sac Electrolux PowerForce EPF61RR, 800W, S-Bag, Hygiene Filter, Perie DustPro, Rosu",
+						"currency": "RON",
+						"vat_rate": 0.19,
+						"is_electronic": false,
+						"uom": 1
+					}
+					
+				],
+				"total": 355.98,
+				"vendor_id": 1,
+				"currency": "RON",
+				"delivery_mode": "CURIER RO",
+				"tracking_status": 6,
+				"status_id": 12,
+				"status_name": "Finished",
+				"split_info": {
+					"message": "Comanda nu va fi livrata split!",
+					"products": [
+						{
+							"quantity": 1,
+							"productName": "Aspirator cu sac Electrolux PowerForce EPF61RR, 800W, S-Bag, Hygiene Filter, Perie DustPro, Rosu",
+							"productPrice": "529.99",
+							"order_product_id": 140514798
+						}
+					]
+				}
+			}
+		],
+		"reverse_vat": "Not eligible"
+	}
 }
