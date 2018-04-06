@@ -1,44 +1,61 @@
 {
-  "data": {
-    "total": 1038.98,
-    "currency": "RON",
-    "country_id": 1,
-    "country": "RO",
-    "source": "mobile app",
-    "is_swipe": false,
-    "author": "procesare.automata",
-    "customer": {
-      "eos_id": 373597,
-      "corporate": false,
-      "type": 0,
-      "email": "madalinaene83@yahoo.com",
-      "name": "Madalina Sima",
-      "phones": [
-        "0727114381",
-        "",
-        ""
-      ],
-      "company": {
-        "name": "madalina sima",
-        "fiscal_code": "",
-        "registration_number": "",
-        "bank_account": "",
-        "id": 611157
-      },
-      "id": 509073,
-      "segmentation": "Bronze",
-      "balance": 0,
-      "total_orders": 6,
-      "total_orders_dfdl": "5"
-    },
-    "modified_at": "2018-03-05T20:05:25",
-    "has_mkt_products": true,
-    "eos_customer_id": 373597,
-    "previous_author": "",
-    "id": "42691061",
-    "status_id": 12,
-    "status_name": "Finished",
-    "date": "2018-03-05T15:05:33",
-    "reverse_vat": "Not eligible"
-  }
+	"data": {
+		"customer": {
+			"corporate": false,
+			"name": "Oprea Eugen",
+			"phones": [
+				"0769352090",
+				"",
+				""
+			],
+			"eos_id": 2891731,
+			"company": {
+				"name": "Oprea Eugen",
+				"fiscal_code": "",
+				"registration_number": "",
+				"bank_account": "",
+				"id": 4402606
+			}
+		},
+
+		"orders": [
+			{
+				"products": [
+					{
+						"characteristics": {
+							"white_mda": false
+						},
+						"order_product_id": 140514798,
+						"quantity": 1,
+						"type": 1,
+						"buyback": false,
+						"price": {
+							"total": 529.99,
+							"vat": 84.62,
+							"unit_price": 529.99,
+							"base_total": 445.37,
+							"vat_total": 84.62,
+							"base": 445.37
+						},
+						"product_id": 3762088,
+						"name": "Aspirator cu sac Electrolux PowerForce EPF61RR, 800W, S-Bag, Hygiene Filter, Perie DustPro, Rosu",
+						"currency": "RON",
+						"vat_rate": 0.19,
+						"is_electronic": false,
+						"uom": 1
+					}
+					
+				],
+				"total": 355.98,
+				"vendor_id": 1,
+				"currency": "RON",
+				"delivery_mode": "CURIER RO",
+				"tracking_status": 6,
+				"status_id": 12,
+				"status_name": "Finished"
+
+			}
+		],
+		"reverse_vat": "Not eligible"
+	}
 }
