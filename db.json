@@ -1,4 +1,9 @@
 {
+	"success": true,
+  "error": {
+    "message": "",
+    "code": 0
+  },
   "data": {
     "customer": {
       "corporate": false,
