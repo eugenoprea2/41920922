@@ -2,7 +2,10 @@
   "data": {
     "customer": {
       "corporate": false,
+	"type": 1,
+      "email": "office@automation-electric.com",
       "name": "Oprea Eugen",
+	"total_orders": 2,
       "phones": [
         "0769352090",
         "",
@@ -13,7 +16,6 @@
         "name": "Oprea Eugen",
         "fiscal_code": "",
         "registration_number": "",
-        "bank_account": "",
         "id": 4402606
       }
     },
