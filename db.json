@@ -2,7 +2,7 @@
   "data": {
     "customer": {
       "corporate": false,
-	"type": 1,
+	"type_c": 1,
       "email": "office@automation-electric.com",
       "name": "Oprea Eugen",
 	"total_orders": 2,
@@ -37,7 +37,7 @@
             },
             "product_id": 3762088,
             "name": "Aspirator cu sac Electrolux PowerForce EPF61RR, 800W, S-Bag, Hygiene Filter, Perie DustPro, Rosu",
-            "currency": "RON",
+            "currencyType": "RON",
             "vat_rate": 0.19,
             "is_electronic": false,
             "uom": 1
@@ -57,7 +57,7 @@
             },
             "product_id": 1435103,
             "name": "Canapea extensibila Kring Doris + cutie Ottoman, Gri, Piele ecologica, 170 x 83-106 x 41-87 cm",
-            "currency": "RON",
+            "currencyType": "RON",
             "vat_rate": 0.19,
             "is_electronic": false,
             "uom": 1
@@ -66,7 +66,7 @@
         "total": 355.98,
         "vendor_id": 1,
 		"vendor_name": "emag",
-        "currency": "RON",
+        "currencyType": "RON",
         "delivery_mode": "CURIER RO",
         "tracking_status": 6,
         "status_id": 12,
@@ -102,7 +102,7 @@
             },
             "product_id": 3762088,
             "name": "Aspirator cu sac Electrolux PowerForce EPF61RR, 800W, S-Bag, Hygiene Filter, Perie DustPro, Rosu",
-            "currency": "RON",
+            "currencyType": "RON",
             "vat_rate": 0.19,
             "is_electronic": false,
             "uom": 1
@@ -122,7 +122,7 @@
             },
             "product_id": 1435103,
             "name": "Canapea extensibila Kring Doris + cutie Ottoman, Gri, Piele ecologica, 170 x 83-106 x 41-87 cm",
-            "currency": "RON",
+            "currencyType": "RON",
             "vat_rate": 0.19,
             "is_electronic": false,
             "uom": 1
@@ -131,7 +131,7 @@
         "total": 355.98,
         "vendor_id": 1,
 		"vendor_name": "emag",
-        "currency": "RON",
+        "currencyType": "RON",
         "delivery_mode": "CURIER RO",
         "tracking_status": 6,
         "status_id": 12,
