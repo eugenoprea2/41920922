@@ -63,7 +63,7 @@
             "uom": 1
           }
         ],
-        "total": 355.98,
+        "total": 1979.98,
         "vendor_id": 1,
 		"vendor_name": "emag",
         "currencyType": "RON",
@@ -93,7 +93,7 @@
             "type": 1,
             "buyback": false,
             "price": {
-              "total": 529.99,
+              "total": 339.99,
               "vat": 84.62,
               "unit_price": 529.99,
               "base_total": 445.37,
@@ -113,7 +113,7 @@
             "type": 1,
             "buyback": false,
             "price": {
-              "total": 1449.99,
+              "total": 144.99,
               "vat": 231.51,
               "unit_price": 1449.99,
               "base_total": 1218.48,
@@ -128,8 +128,8 @@
             "uom": 1
           }
         ],
-        "total": 355.98,
-        "vendor_id": 1,
+        "total": 484.98,
+        "vendor_id": 2,
 		"vendor_name": "Flanco",
         "currencyType": "RON",
         "delivery_mode": "CURIER RO",
