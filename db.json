@@ -5,6 +5,16 @@
 	"type_c": 1,
       "email": "oprea_eugen20@yahoo.com",
       "name": "Oprea Eugen",
+	  "delivery_address": {
+              "locality": "Bucuresti",
+              "locality_id": 6,
+              "contact_name": "Marius",
+              "street": "Splaiul Independentei",
+              "street_number": "351-353",
+			  "bloc": "5",
+			  "contact_phone": "0740123741",
+              "postal_code": ""
+        },
 	"total_orders": 6,
       "phones": [
         "0769352090",
@@ -58,18 +68,9 @@
         "delivery_mode": "CURIER RO",
         "tracking_status": 6,
         "status_id": 12,
-        "status_name": "Finished",
+        "status_name": "Finished"
           
-        "delivery_address": {
-              "locality": "Bucuresti",
-              "locality_id": 6,
-              "contact_name": "Madalina",
-              "street": "soseaua Salaj",
-              "street_number": "351-353",
-			  "bloc": "5",
-			  "contact_phone": "0740123741",
-              "postal_code": ""
-        }
+        
 			
 			
       },
@@ -115,18 +116,9 @@
         "delivery_mode": "CURIER RO",
         "tracking_status": 6,
         "status_id": 12,
-        "status_name": "Finished",
+        "status_name": "Finished"
           
-        "delivery_address": {
-              "locality": "Bucuresti",
-              "locality_id": 6,
-              "contact_name": "Marius",
-              "street": "Splaiul Independentei",
-              "street_number": "351-353",
-			  "bloc": "5",
-			  "contact_phone": "0740123741",
-              "postal_code": ""
-        }
+        
 			
 			
       }
