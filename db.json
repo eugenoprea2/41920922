@@ -64,8 +64,10 @@
               "locality": "Bucuresti",
               "locality_id": 6,
               "contact_name": "Madalina",
-              "address": "soseaua Salaj, nr.351-353, bl.5, et.1, ap.13",
-              "contact_phone": "0740123741",
+              "street": "soseaua Salaj",
+              "street_number": "351-353",
+			  "bloc": "5",
+			  "contact_phone": "0740123741",
               "postal_code": ""
         }
 			
@@ -116,11 +118,13 @@
         "status_name": "Finished",
           
         "delivery_address": {
-              "locality": "Bucure\u015fti",
+              "locality": "Bucuresti",
               "locality_id": 6,
-              "contact_name": "Madalina Sima",
-              "address": "soseaua Salaj, nr.351-353, bl.5, et.1, ap.13",
-              "contact_phone": "0740123741",
+              "contact_name": "Marius",
+              "street": "Splaiul Independentei",
+              "street_number": "351-353",
+			  "bloc": "5",
+			  "contact_phone": "0740123741",
               "postal_code": ""
         }
 			
