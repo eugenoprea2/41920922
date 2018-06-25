@@ -29,11 +29,7 @@
             "buyback": false,
             "price": {
               "total": 529.99,
-              "vat": 84.62,
-              "unit_price": 529.99,
-              "base_total": 445.37,
-              "vat_total": 84.62,
-              "base": 445.37
+              "unit_price": 529.99
             },
             "product_id": 8762088,
             "name": "Aspirator cu sac Electrolux PowerForce",
@@ -49,11 +45,7 @@
             "buyback": false,
             "price": {
               "total": 1449.99,
-              "vat": 231.51,
-              "unit_price": 1449.99,
-              "base_total": 1218.48,
-              "vat_total": 231.51,
-              "base": 1218.48
+              "unit_price": 1449.99
             },
             "product_id": 1435103,
             "name": "Canapea extensibila Kring Doris",
@@ -94,11 +86,7 @@
             "buyback": false,
             "price": {
               "total": 339.99,
-              "vat": 84.62,
-              "unit_price": 529.99,
-              "base_total": 445.37,
-              "vat_total": 84.62,
-              "base": 445.37
+              "unit_price": 529.99
             },
             "product_id": 3762099,
             "name": "Espressor manual Breville Prima Latte",
@@ -114,11 +102,7 @@
             "buyback": false,
             "price": {
               "total": 144.99,
-              "vat": 231.51,
-              "unit_price": 1449.99,
-              "base_total": 1218.48,
-              "vat_total": 231.51,
-              "base": 1218.48
+              "unit_price": 1449.99
             },
             "product_id": 1435143,
             "name": "Cana de filtrare apa Brita Marella",
