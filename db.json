@@ -34,9 +34,7 @@
             "product_id": 8762088,
             "name": "Aspirator cu sac Electrolux PowerForce",
             "currencyType": "RON",
-            "vat_rate": 0.19,
-            "is_electronic": false,
-            "uom": 1
+            "vat_rate": 0.19
           },
 		  {
             "order_product_id": 141421747,
@@ -50,9 +48,7 @@
             "product_id": 1435103,
             "name": "Canapea extensibila Kring Doris",
             "currencyType": "RON",
-            "vat_rate": 0.19,
-            "is_electronic": false,
-            "uom": 1
+            "vat_rate": 0.19
           }
         ],
         "total": 1979.98,
@@ -63,19 +59,17 @@
         "tracking_status": 6,
         "status_id": 12,
         "status_name": "Finished",
-		"deliveries": [
-          {
-            "total": 974.98,
-            "delivery_address": {
-              "locality": "Bucure\u015fti",
+          
+        "delivery_address": {
+              "locality": "Bucuresti",
               "locality_id": 6,
-              "contact_name": "Madalina Sima",
+              "contact_name": "Madalina",
               "address": "soseaua Salaj, nr.351-353, bl.5, et.1, ap.13",
               "contact_phone": "0740123741",
               "postal_code": ""
-            }
-			}
-			]
+        }
+			
+			
       },
 	   {
         "products": [
@@ -120,19 +114,17 @@
         "tracking_status": 6,
         "status_id": 12,
         "status_name": "Finished",
-		"deliveries": [
-          {
-            "total": 974.98,
-            "delivery_address": {
+          
+        "delivery_address": {
               "locality": "Bucure\u015fti",
               "locality_id": 6,
               "contact_name": "Madalina Sima",
               "address": "soseaua Salaj, nr.351-353, bl.5, et.1, ap.13",
               "contact_phone": "0740123741",
               "postal_code": ""
-            }
-			}
-			]
+        }
+			
+			
       }
     ],
     "reverse_vat": "Not eligible"
