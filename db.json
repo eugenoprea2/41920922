@@ -10,6 +10,8 @@
               "locality_id": 6,
               "contact_name": "Marius",
               "street": "Splaiul Independentei",
+		  		                  "sector": "Bucuresti - Sector 6",
+
               "street_number": "351-353",
 			  "bloc": "5",
 			  "contact_phone": "0740123741",
